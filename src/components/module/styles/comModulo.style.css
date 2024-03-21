@@ -1,0 +1,57 @@
+@import url(variables.css);
+*{
+    font-family: 'Comic Sans MS', cursive;
+}
+
+body{
+    background-image: url(image/fondo.jpg); /* imagen*/
+    background-repeat: no-repeat;/* para evitar que la imagen se repita*/
+    background-attachment: fixed;/* para ajustar la ijmagen al tamaño de la pagina*/
+    background-size: cover;/* cubre todala pagina*/
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--colorbordes);
+    margin: 25px ;
+    width: 400px;
+    background-color: var(--colorFondo);
+    box-shadow: 0px 0px 10px var(--colorSombra);
+    border-radius: 25px;
+}
+
+.imagen{
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 0px 0px 10px var(--colorSombra);
+}
+.nombre{
+    padding: 10px;
+    text-align: center;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 10px;
+    width: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--colorbordes);
+    font-size: 20px;
+}
